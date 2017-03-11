@@ -1,7 +1,3 @@
-This project is forked by Jay D Dee.
-
-Updated for v3.3.2 Windows support.
-
 Building on linux prerequisites:
 
 It is assumed users know how to install packages on their system and
@@ -162,7 +158,7 @@ Algorithms
 #### Planned support for
  * *scrypt-jane* (YaCoin, CopperBars, Pennies, Tickets, etc..)
  
-Dependencies
+Dependencies / Зависимости
 ============
  * libcurl http://curl.haxx.se/libcurl/
  * jansson http://www.digip.org/jansson/ (jansson source is included in-tree)
@@ -170,13 +166,13 @@ Dependencies
  * pthreads
  * zlib (for curl/ssl)
 
-Download
+Download / Скачать
 ========
  * Windows releases: https://github.com/tpruvot/cpuminer-multi/releases
  * Git tree:   https://github.com/tpruvot/cpuminer-multi
    * Clone with `git clone https://github.com/tpruvot/cpuminer-multi`
 
-Build
+Build / Сборка
 =====
 
 #### Basic *nix build instructions:
@@ -277,7 +273,7 @@ Protocols socks4a and socks5h, allowing remote name resolving, are also availabl
 If no protocol is specified, the proxy is assumed to be a HTTP proxy.  
 When the --proxy option is not used, the program honors the http_proxy and all_proxy environment variables.
 
-Donations
+Donations / Поддержать
 =========
 Donations for the work done in this fork are accepted :
 
@@ -289,7 +285,7 @@ Lucas Jones :
 * MRO: `472haywQKoxFzf7asaQ4XKBc2foAY4ezk8HiN63ifW4iAbJiLnfmJfhHSR9XmVKw2WYPnszJV9MEHj9Z5WMK9VCNHaGLDmJ`
 * BTC: `139QWoktddChHsZMWZFxmBva4FM96X2dhE`
 
-Credits
+Credits 
 =======
 CPUMiner-multi was forked from pooler's CPUMiner, and has been started by Lucas Jones.
 * [tpruvot](https://github.com/tpruvot) added all the recent features and newer algorythmns
